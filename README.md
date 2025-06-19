@@ -12,3 +12,15 @@
 
 ```bash
 pip install aiogram aiosqlite python-dateutil
+```
+
+## Настройка
+
+В корне проекта измените файл config.json с содержимым:
+
+```json
+{
+  "BOT_TOKEN": "ваш_токен_бота"
+}
+```
+> ВАЖНО: Замените "ваш_токен_бота" на токен вашего Telegram-бота, который можно получить у @BotFather.
